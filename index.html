@@ -192,6 +192,31 @@
                             <label for="nome"> Nome do Indivíduo:</label>
                             <input type="text" name="nome" id="nome" value="Equipe 01 - ">
                           </div>
+
+                          <!-- Atributo Disable: Desabilita o campo da para uso. -->
+                           <div>
+                            <p>Tente mudar o texto.</p>
+                            <input type="text" name="name" id="name" value="não precisa preencher" disabled>
+                           </div>
+
+                           <!-- Atributo Placeholder: é um espaço reservado, um texto temporário ou um elemento de amostra usado em design, programação e edição de texto. Ele serve para orientar o usuário sobre o que deve ser preenchido ou como o conteúdo final será exibido. -->
+
+                           <div>
+                            <label for="nome">Nome do Aluno:</label>
+                            <input type="text" name="nome" id="nome" placeholder="Digite aqui o nome completo do Aluno.">
+                           </div>
+
+                           <!-- Atributo Required: É um tipo de validação de campo HTML. -->
+                            <div>
+                                <label for="aniversario">(*) Ano de Nascimento</label>
+                                <input type="date" name="aniversario" id="aniversario" required>
+                            </div>
+
+                            <!-- Botão de envio. -->
+                             <input type="submit" value="Enviar Formulário">
+
+                             <!-- Botão de Reset -->
+                             <input type="reset" value="Limpar o Formulário">
          </form>
 
 </body>
